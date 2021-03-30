@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="styles.css?v=1.0">
+
+</head>
+    <!-- Starting with the Project name and Group details -->    
+    <div class="header">
+        <h1>Virtual ASL Keyboard Translator</h1>
+        <p>Group 16: Dhruvkumar Patel, Aakash Patel, Amruth Venkatakrishnan ,Jeffrey Maurilus Jaya</p>
+    </div>
+
+        <!-- This class is used to display the INPUT the person enters -->
+        <!-- It does not have any code as it's not needed. -->
+        <!-- Refer to styles.css for how it was styled. -->
+    <div>
+        <h3>User Input: </h3>
+    </div>
+    <div class="keyboard">
+        <div class="display" id="text"></div>
+    </div>
+	<div class="keyboard">
+        <div class="display2" id="Image"></div>
+    </div>
+
+    <!-- Using HTML's in-built button class to create the keyboard -->
+    <!-- We used images instead of typing out the "keys" -->
+    <!-- All the buttons are connected through JavaScript -->
+    <div class="buttons">
+        <div class="topKeys">
+            <button onclick="funQ();funQ1();" class="key"><img class="test" src="images/Q.png"></button>
+            <button onclick="funW();funW1();" class="key"><img class="test" src="images/W.png"></button>
+            <button onclick="funE();funE1();" class="key"><img class="test" src="images/E.png"></button>
+            <button onclick="funR();funR1();" class="key"><img class="test" src="images/R.png"></button>
+            <button onclick="funT();funT1();" class="key"><img class="test" src="images/T.png"></button>
+            <button onclick="funY();funY1();" class="key"><img class="test" src="images/Y.png"></button>
+            <button onclick="funU();funU1();" class="key"><img class="test" src="images/U.png"></button>
+            <button onclick="funI();funI1();" class="key"><img class="test" src="images/I.png"></button>
+            <button onclick="funO();funO1();" class="key"><img class="test" src="images/O.png"></button>
+            <button onclick="funP();funP1();" class="key"><img class="test" src="images/P.png"></button>
+            <button onclick="funBackSpace()" class="key"><img class="test" src="images/backSpace.png" alt=""></button>
+        </div>
+        <div class="middleKeys">
+            <button onclick="funA();funA1();" class="key"><img class="test" src="images/A.png" ></button>
+            <button onclick="funS();funS1();" class="key"><img class="test" src="images/S.png" ></button>
+            <button onclick="funD();funD1();" class="key"><img class="test" src="images/D.png" ></button>
+            <button onclick="funF();funF1();" class="key"><img class="test" src="images/F.png" ></button>
+            <button onclick="funG();funG1();" class="key"><img class="test" src="images/G.png" ></button>
+            <button onclick="funH();funH1();" class="key"><img class="test" src="images/H.png" ></button>
+            <button onclick="funJ();funJ1();" class="key"><img class="test" src="images/J.png" ></button>
+            <button onclick="funK();funK1();" class="key"><img class="test" src="images/K.png" ></button>
+            <button onclick="funL();funL1();" class="key"><img class="test" src="images/L.png" ></button>
+            <button onclick="funClear();" class="key"><img class="test" src="images/clear.png" alt=""></button>
+        </div>
+        <div class="bottomKeys">
+            <button onclick="funZ();funZ1();" class="key"><img class="test" src="images/Z.png" ></button>
+			<button onclick="funX();funX1();" class="key"><img class="test" src="images/X.png" ></button>
+			<button onclick="funC();funC1();" class="key"><img class="test" src="images/C.png" ></button>
+            <button onclick="funV();funV1();" class="key"><img class="test" src="images/V.png" ></button>
+            <button onclick="funB();funB1();" class="key"><img class="test" src="images/B.png" ></button>
+            <button onclick="funN();funN1();" class="key"><img class="test" src="images/N.png" ></button>
+            <button onclick="funM();funM1();" class="key"><img class="test" src="images/M.png" ></button>
+			<button onclick="funPeriod();funPeriod1();" class="key"><img class="test" src="images/Period.png" ></button>
+			<button onclick="funQuestion();funQuestion1();" class="key"><img class="test" src="images/Question.png" ></button>
+            <button onclick="funSpace();funSpace1();" class="key"><img class="test" src="images/space.png" alt=""></button>
+        </div>
+    </div>   
+<body>
+    <!-- Linking JavaScript file. Refer to the JavaScript file-->
+    <script src="script.js"></script>
+</body>
+
+</html>

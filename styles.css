@@ -1,0 +1,118 @@
+/**
+	Here we have used basic css properties such as font-size, color, type of fonts
+	to few headings/paragraphs we have
+**/
+
+body {
+	background-color: #0278ae;
+}
+
+.header, .buttons, .keyboard{	
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+	color: #31326f;
+	font-family: "Times New Roman", Times, serif;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: 300;
+	color: #31326f;
+}
+
+p{
+	font-size: 20px;
+	font-weight: 300;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/** The next 2 classes are for the DISPLAY (textarea)
+
+	First class: for the text that wil be translated to normal english alphabets
+	Overall radius of 15px to match the buttons below.
+	Height and Width will be auto adjusted
+	Overflow was used IF THE TEXT requires a SCROLLBAR (assuming plently of text has been entered)
+
+	Second class: the height of the display (textarea) box is 50px and width will be adjusted according to the screen
+	Background and font-size are self-explanatory
+	Overflow again, same thing as before
+	Padding is around the overall display (textared) box that we have (makes the box look nice and big)
+	Margin-bottom was used to add some space for the keyboard
+**/
+
+.display input[type=text]{
+	height: auto;
+	width: auto;
+	overflow: auto;
+	border-radius: 15px;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+	
+.display{
+	height: 50px;
+	width: auto;
+	background: #e5edb7;
+	padding: 15px;
+	overflow: auto;
+	border-radius: 15px;
+	font-size: 34px;
+	margin-bottom: 15px;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.display2 input[type=text]{
+	height:auto;
+	width:auto;
+	overflow:auto;
+	border-radius:15px;
+}
+.display2{
+	height: 150px;
+	width: auto;
+	background: #e5edb7;
+	padding: 15px;
+	overflow: auto;
+	border-radius: 15px;
+	font-size: 34px;
+	margin-bottom: 15px;
+}
+/** The next 2 classes are for the BUTTONS 
+	We have added the radius to each button to match the overall design
+	Added margin (space) off 5PX so the buttons aren't touching each others
+**/
+.buttons button{
+	border-radius: 15px;
+	margin: 5px; /** top right bottom left MARGIN (space) around the buttons**/
+	background-color: #32e0c4; /** background-color for BUTTONS**/
+	border: 1px solid #e8ffc1; /** BORDER-color for BUTTONS**/
+}
+
+
+.buttons{
+	background: #0278ae;
+	padding: 10px;
+	border-radius: 15px;
+	
+}
+
+/** How big the keys are in terms of its height and widht 
+	The image will be inserted into these dimensions	
+**/
+.key{
+	height: 100px;
+	width: 100px;
+}
+/** The image will be adjusted to the above dimensions mentioned
+**/
+.test {
+    width: 100%;
+    height: 100%;
+}
