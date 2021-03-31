@@ -382,7 +382,7 @@ function funSpace() {
 }
 function funSpace1(){
 var img = document.createElement("img");
-	img.src = "images/Space.png";
+	img.src = "space.png";
 	var src = document.getElementById("Image");
 	src.appendChild(img).width="50".height="50";
 }
